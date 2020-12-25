@@ -1,0 +1,390 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
+}
+
+body{
+    background: #f0f0f0;
+}
+
+.header{
+    margin: 20px 85px;
+
+    height: 84px;
+    display: flex;
+}
+
+.header img{
+    width: 160px;
+    height: 80px;
+}
+
+.link{
+    padding: 39px 0 0 210px;
+    display: flex;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 0 7px;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 0 111px;
+}
+
+.number a{
+    text-decoration: none;
+    color: #ff6a59;
+    font-size: 22px;
+}
+
+.carts{
+    padding: 30px 0 0 30px;
+}
+
+.carts a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.carts i{
+    color: #666666;
+}
+
+.hum{
+    background: #ff6a59;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.hum i{
+    color: white;
+    position: relative;
+    top: 1px;
+    right: .8px;
+    font-size: 24px;
+}
+
+.hum:hover{
+    background: black;
+}
+
+
+.navbar{
+    margin: 40px 75px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ff6a59;
+    text-transform: uppercase;
+    margin: 0 8px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar i{
+    font-size: 8px;
+    position: relative;
+    opacity: .4;
+    top: -3px;
+    margin-left: 3px;
+}
+
+section{
+    margin: 20px 85px;
+}
+
+.slide{
+    background: url('https://static-sl.insales.ru/files/1/878/3138414/original/slider003.jpg') no-repeat;
+    background-size: contain;
+    width: 1180px;
+    height: 432.66px;    
+    animation: name 20s ease-in-out infinite;
+}
+
+@keyframes name{
+    20%{
+        background: url('https://static-sl.insales.ru/files/1/879/3138415/original/slider002.jpg') no-repeat;
+        background-size: contain;
+    }
+
+    40%{
+        background: url('https://static-sl.insales.ru/files/1/881/3138417/original/slider001.jpg') no-repeat;
+        background-size: contain;   
+    }
+
+    60%{
+        background: url('https://static-sl.insales.ru/files/1/881/3138417/original/slider001.jpg') no-repeat;
+        background-size: contain;
+    }
+
+    80%{
+        background: url('https://static-sl.insales.ru/files/1/880/3138416/original/slider004.jpg') no-repeat;
+        background-size: contain;
+    }
+
+    90%{
+        background: url('https://static-sl.insales.ru/files/1/882/3138418/original/slider005.jpg') no-repeat;
+        background-size: contain;
+    }
+
+    100%{
+        background: url('https://static-sl.insales.ru/files/1/878/3138414/original/slider003.jpg') no-repeat;
+        background-size: contain;
+    }
+}
+
+.quality{
+    display: flex;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.quality img{
+    width: 80px;
+    height: 80px;
+}
+
+.quality p{
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.menu{
+    margin-top: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 15px;
+}
+
+a.active{
+    color:#ff6a59;
+    text-decoration: underline;
+}
+
+.menu a:hover{
+    color: #ff6a59;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.content{
+    flex: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 540.39px;
+    background: white;
+    border: 2px solid #dbdbdb;
+    margin-left: 20px;
+}
+
+.img{
+    width: 238px;
+    height: 238px;
+    margin: 20px auto 10px;
+}
+
+.img img{
+    width: 238px;
+    height: 238px;
+}
+
+.name{
+    margin: 0 0 0 15px;
+    
+}
+
+.name a{
+    font-size: 19.2px;
+    text-decoration: none;
+    color: #ff6a59;
+}
+
+.about{
+    margin: 60px 15px 0 15px;
+}
+
+.price{
+    margin: 20px 15px 0;
+}
+
+.price p{
+    color: #ff6a59;
+    font-size: 1.2rem;
+}
+
+.quantity{
+    margin: 20px 0 0 15px;
+}
+
+.quantity button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #cccccc;
+    font-size: 23px;
+    font-weight: normal;
+    margin: 0 -3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.quantity input{
+    width: 84.84px;
+    height: 42px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    background: #fafafa;
+}
+
+.quantity a{
+    text-decoration: none;
+    color: white;
+    background: #ff6a59;
+    padding: 12px;
+    margin-left: 30px;
+    position: relative;
+    top: -2px;
+}
+
+.quantity a:hover{
+    background: black;
+}
+
+.radius{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.border{
+    flex: 20%;
+    margin-left: 5px;
+    display: flex;
+    margin-bottom: 30px;
+    flex-flow: column wrap;
+}
+
+.border img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.border a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.border a:hover{
+    color: #ff6a59;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.welcome h3{
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.footer{
+    padding: 10px;
+    background: #ff6a59;
+    display: flex;
+    align-items: center;
+}
+
+.address{
+    margin: 20px 0px 20px 60px;
+}
+
+.address h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.address a{
+    text-decoration: none;
+}
+
+.menyu{
+    margin-left: 20px;
+}
+
+.menyu a{
+    color: white;
+    margin: 0 10px;
+}
+
+.social{
+    padding: 10px;  
+    position: relative;
+    left: 30%;
+}
+
+.social i{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+    border: 1px dashed white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.social i:hover{
+    background: white;
+    color: black;
+}
+
+.copy{
+    position: relative;
+    top: 80px;
+    left: 120px;
+}
+
+.copy h3{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+}
