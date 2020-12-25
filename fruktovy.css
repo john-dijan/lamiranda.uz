@@ -1,0 +1,261 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
+}
+
+body{
+    background: #f0f0f0;
+}
+
+.header{
+    margin: 20px 85px;
+
+    height: 84px;
+    display: flex;
+}
+
+.header img{
+    width: 160px;
+    height: 80px;
+}
+
+.link{
+    padding: 39px 0 0 210px;
+    display: flex;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 0 7px;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 0 111px;
+}
+
+.number a{
+    text-decoration: none;
+    color: #ff6a59;
+    font-size: 22px;
+}
+
+.carts{
+    padding: 30px 0 0 30px;
+}
+
+.carts a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.carts i{
+    color: #666666;
+}
+
+.hum{
+    background: #ff6a59;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.hum i{
+    color: white;
+    position: relative;
+    top: 1px;
+    right: .8px;
+    font-size: 24px;
+}
+
+.hum:hover{
+    background: black;
+}
+
+
+.navbar{
+    margin: 40px 75px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ff6a59;
+    text-transform: uppercase;
+    margin: 0 8px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar i{
+    font-size: 8px;
+    position: relative;
+    opacity: .4;
+    top: -3px;
+    margin-left: 3px;
+}
+
+section{
+    margin: 100px 150px;
+    display: flex;
+}
+
+.img img{
+    width: 480px;
+    height: 321px;
+}
+
+.info{
+    margin: 0 80px;
+}
+
+.info h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p.in{
+    margin-bottom: 30px;
+}
+
+.code{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.code p{
+    margin-right: 100px;
+}
+
+.info h2{
+    font-size: 2em;
+    color: #dd3f46;
+}
+
+.quantity{
+    margin-top: 35px;
+}
+
+.quantity button{
+    height: 40px;
+    width: 40px;
+    background: #555555;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 -3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.quantity input{
+    width: 100px;
+    height: 40px;
+    background: #eeeeee;
+    outline: none;
+    border: none;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.quantity a{
+    text-decoration: none;
+    color: white;
+    background: #ff6a59;
+    padding: 10.5px;
+    outline: none;
+    position: relative;
+    top: -4.7px;
+    left: 70px;
+}
+
+.quantity a:hover{
+    background: black;
+}
+
+.otz a{
+    color: #ff6a59;
+    
+}
+
+.otz{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+a.at{
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    width: 10%;
+}
+
+a.at:hover{
+    background: black;
+    color: white;
+}
+
+.footer{
+    background: #ff6a59;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.h4{
+    margin: 20px 0px 20px 50px;
+}
+
+.h4 h4{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.h4 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.links a{
+    color: white;
+    margin-left: 20px;
+}
+
+.social{
+    position: relative;
+    left: 25%;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px dashed white;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.social a:hover{
+    background: black;
+    border: none;
+}
